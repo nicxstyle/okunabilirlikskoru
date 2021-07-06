@@ -1,0 +1,34 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Document
+  link(rel='stylesheet' href='style.css')
+.container
+  .title
+    h1 Okunabilirlik Skoru Hesaplayıcı
+  .form
+    form(action="/sonuc" method="POST")
+      textarea(rows='15' cols='80' name='text' placeholder='Metni bu alana yapıştırın')
+      button(type='submit') Gönder
+  .result
+    table
+      tr
+        th Algoritma
+        th Skor
+        th Sonu&ccedil;
+      if onay == 1
+        each value,index in sonuc
+          tr
+            each deger in value
+              th=deger
+
+
+
+if onay == 1
+  script.
+    console.log("aa");
+    document.querySelector("div.result").style.display = 'block';
+else
+  console.log("b")
