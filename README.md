@@ -9,3 +9,5 @@ Aşağıda belirtilen okunabilirlik skoru üzerine geliştirilen algoritmalar ü
 - ARI (Automated Readability Index)
 - Linsear Write Formula
 - ve yazınızın saniye bazından okunma süresini hesaplayabilirsiniz.
+
+Hesaplama fonksiyonları ve koda dökülmesi konusunda bir çok konuda paylaşımlarından faydalandığım Simo Ahava (https://github.com/sahava)'ya sonsuz teşekkürler.
